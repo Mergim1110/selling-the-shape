@@ -1,0 +1,12 @@
+hourly price vs grid-scout (SMARD API): n=42360 from 2021-12-31 23:00:00+00:00 to 2026-10-31 22:00:00+00:00 | max abs diff 0.0050 | n diff > 0.0101: 0 | dates with diff: []
+hourly price vs AZFARHAD24511 pull: n=42360 from 2021-12-31 23:00:00+00:00 to 2026-10-31 22:00:00+00:00 | max abs diff 0.0100 | n diff > 0.0101: 0 | dates with diff: []
+hourly price vs Energy-Charts pull: n=33576 from 2022-12-31 23:00:00+00:00 to 2026-10-30 22:00:00+00:00 | max abs diff 0.0100 | n diff > 0.0101: 0 | dates with diff: []
+quarter hour price vs Energy-Charts pull: n=38020 from 2025-09-30 22:00:00+00:00 to 2026-10-31 22:45:00+00:00 | max abs diff 22.5400 | n diff > 0.0101: 94 | dates with diff: [datetime.date(2026, 9, 12), datetime.date(2026, 9, 13)]
+solar 2026 by month (UTC months), archive / grid-scout: {'2026-01': 1.0, '2026-02': 1.0, '2026-03': 1.0, '2026-04': 1.0366, '2026-05': 0.9971, '2026-06': 1.0, '2026-07': 1.0, '2026-08': 1.0, '2026-09': 1.0, '2026-10': 1.0}
+solar hourly sum vs grid-scout: n=24672 from 2024-01-07 23:00:00+00:00 | ratio of totals 1.00149 | by year {2024: 1.0, 2025: 1.0, 2026: 1.00405}
+load 2026 by month (UTC months), archive / grid-scout: {'2026-01': 1.0, '2026-02': 1.0, '2026-03': 1.0, '2026-04': 0.998, '2026-05': 1.0, '2026-06': 1.0001, '2026-07': 1.0, '2026-08': 1.0, '2026-09': 1.0, '2026-10': 1.0}
+load hourly sum vs grid-scout: n=42360 from 2021-12-31 23:00:00+00:00 | ratio of totals 0.99997 | by year {2021: 1.0, 2022: 1.0, 2023: 1.0, 2024: 1.0, 2025: 1.0, 2026: 0.99981}
+Note: this log compares the archived exports before the SMARD revision step. The solar and load differences
+for April and May 2026 against grid-scout reflect different retrieval dates. Direct checks against SMARD on
+11 Nov 2026 (monthly totals for all months; hourly values for 27 Apr to 4 Oct 2026) are documented in
+data_ref/README_sources.txt and in out/data_vintage.csv.

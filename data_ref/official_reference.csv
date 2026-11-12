@@ -1,0 +1,15 @@
+kind,period,base_eur_mwh,neg_hours,solar_market_value_eur_mwh,neg_quarter_hours,source
+annual,2022,235.45,69,223.06,,Bundesnetzagentur press release 4 Jan 2023; netztransparenz.de annual market value solar
+annual,2023,95.18,301,72.00,,Bundesnetzagentur press release 3 Jan 2024; netztransparenz.de annual market value solar
+annual,2024,78.51,457,46.24,,Bundesnetzagentur press release 3 Jan 2025; netztransparenz.de annual market value solar
+annual,2025,89.32,573,45.08,,Bundesnetzagentur press release 5 Jan 2026; netztransparenz.de annual market value solar
+monthly,2026-01,110.1,,110.2,,netztransparenz.de monthly market values (two decimals in ct/kWh as retrieved 21 Oct 2026)
+monthly,2026-02,96.6,,77.2,,netztransparenz.de monthly market values (two decimals in ct/kWh as retrieved 21 Oct 2026)
+monthly,2026-03,99.3,,54.6,,netztransparenz.de monthly market values (two decimals in ct/kWh as retrieved 21 Oct 2026)
+monthly,2026-04,78.5,,13.17,,netztransparenz.de monthly market values (three decimals in ct/kWh; see README_sources.txt)
+monthly,2026-05,97.5,,32.96,,netztransparenz.de monthly market values (three decimals in ct/kWh; see README_sources.txt)
+monthly,2026-06,109.5,,61.9,,netztransparenz.de monthly market values (two decimals in ct/kWh as retrieved 21 Oct 2026)
+monthly,2026-07,105.4,,52.3,,netztransparenz.de monthly market values (two decimals in ct/kWh as retrieved 21 Oct 2026)
+monthly,2026-08,126.89,,63.59,226,netztransparenz.de monthly market values as reported 9 Sep and 10 Nov 2026
+monthly,2026-09,144.82,,81.77,143,netztransparenz.de monthly market values as reported 9 Oct 2026
+monthly,2026-10,169.27,,133.90,,netztransparenz.de monthly market values as reported 10 Nov 2026
